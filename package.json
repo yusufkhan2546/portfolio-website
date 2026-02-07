@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "live-server",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build:css": "npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch"
   },
@@ -21,6 +22,7 @@
   "homepage": "https://github.com/yusufkhan2546/portfolio-website#readme",
   "devDependencies": {
     "@tailwindcss/cli": "^4.1.18",
+    "live-server": "^1.2.2",
     "tailwindcss": "^4.1.18"
   }
 }
